@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food"
+            android:text="Food"
+            android:layout_marginLeft="150dp"
+            />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:background="@drawable/burger"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/image2"
+            android:layout_toRightOf="@id/image1"
+            android:layout_width="200dp"
+            android:background="@drawable/noodles"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textBurger"
+            android:layout_marginLeft="50dp"
+            android:text="Burger"
+            android:layout_below="@id/image1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textNoodles"
+            android:layout_marginLeft="100dp"
+            android:text="Noodles"
+            android:layout_toRightOf="@+id/textBurger"
+            android:layout_below="@id/image2" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/image3"
+            android:layout_below="@+id/textBurger"
+            android:layout_width="200dp"
+            android:background="@drawable/pancake"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/image4"
+            android:layout_below="@+id/textNoodles"
+            android:layout_toRightOf="@+id/image3"
+            android:layout_width="200dp"
+            android:background="@drawable/sandwich"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textPancake"
+            android:layout_marginLeft="50dp"
+            android:text="Pancake"
+            android:layout_below="@id/image3" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textSandwich"
+            android:layout_marginLeft="100dp"
+            android:text="Sandwich"
+            android:layout_toRightOf="@+id/textPancake"
+            android:layout_below="@id/image4" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/image5"
+                android:layout_below="@+id/textPancake"
+                android:layout_width="match_parent"
+                android:background="@drawable/table"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textTable"
+                android:layout_marginLeft="150dp"
+                android:text="TopTable View"
+                android:layout_below="@id/image5" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

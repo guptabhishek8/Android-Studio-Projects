@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <Button
+        android:layout_width="200dp"
+        android:text="Anroid"
+        android:id="@+id/button1"
+        android:background="#EF1414"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2"
+        android:text="Java"
+        android:textColor="#FFFFFF"
+        android:background="#8642FF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Flutter"
+        android:id="@+id/button3"
+        android:layout_marginLeft="10dp"
+        android:textColor="#E236FF"
+        android:background="#DEF5FF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/button4"
+        android:textColor="#FFBF61"
+        android:text="DART"
+        android:layout_marginTop="10dp"
+        android:background="#3EB7ED"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_toRightOf="@id/button2" />-->
+
+ <!--   <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image1"
+        android:background="@drawable/pb1"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pb2"
+        android:layout_below="@+id/image1"
+        android:layout_height="200dp" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edit1"
+        android:hint="USERNAME"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edit2"
+        android:hint="PASSWORD"
+        android:layout_below="@+id/edit1"
+        android:inputType="textPassword"
+        android:layout_marginTop="10px"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/login"
+        android:layout_below="@id/edit2"
+        android:text="Login"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:text="Register"
+        android:id="@+id/register"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/edit2"
+        android:layout_toRightOf="@+id/login"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
